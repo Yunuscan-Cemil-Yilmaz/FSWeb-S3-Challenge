@@ -1,0 +1,25 @@
+.navbar-custom {
+    background-color: var(--cl-sc); /* secondary */
+}
+/* .navbar-custom .navbar-brand, .navbar-custom .nav-link {
+    color: var(--cl-wh);
+} */
+.navbar-custom .navbar-brand { 
+    font-size: 25px;
+    color: var(--cl-pr);
+    text-decoration: underline;
+    font-style: oblique;
+}
+.nav-item a { 
+    color: var(--cl-wh) !important;
+}
+ul.dropdown-menu{
+    background-color: var(--cl-sc);
+}
+.navbar-custom .nav-item { 
+    transition: all ease .4s;
+}
+.navbar-custom .nav-item:hover {
+    background-color: var(--cl-bl); /* black */
+    border-radius: 10px;
+}

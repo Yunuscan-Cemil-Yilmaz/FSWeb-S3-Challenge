@@ -1,0 +1,8 @@
+:root { 
+    --cl-pr: #5cb85c;
+    --cl-sc: #6c757d;
+    --cl-bg: rgb(46,46,46);
+    --cl-bg-bl: rgba(46,46,46,0.6);
+    --cl-bl: black;
+    --cl-wh: white;
+}

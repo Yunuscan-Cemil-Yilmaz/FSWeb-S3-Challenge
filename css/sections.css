@@ -1,0 +1,97 @@
+/* Genel Section Stilleri */
+.section-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+    color: #333;
+    position: relative;
+}
+
+/* About Section */
+.about-section {
+    background-color: #fff;
+}
+
+.about-content {
+    padding: 20px;
+}
+
+.about-content .lead {
+    color: #666;
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.about-content p {
+    color: #777;
+    line-height: 1.8;
+    margin-bottom: 1rem;
+}
+
+/* Contact Section */
+.contact-section {
+    background-color: #f8f9fa;
+}
+
+.contact-info-box {
+    padding: 30px;
+    margin-bottom: 30px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+.contact-info-box:hover {
+    transform: translateY(-5px);
+}
+
+.contact-info-box i {
+    font-size: 2.5rem;
+    color: #333;
+}
+
+.contact-info-box h4 {
+    margin: 15px 0;
+    color: #333;
+}
+
+.contact-info-box p {
+    color: #666;
+    margin: 0;
+}
+
+/* Contact Form */
+.contact-form {
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.contact-form .form-control {
+    border: 1px solid #ddd;
+    padding: 12px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.contact-form .form-control:focus {
+    border-color: #333;
+    box-shadow: none;
+}
+
+.contact-form textarea.form-control {
+    min-height: 120px;
+}
+
+.contact-form .btn {
+    padding: 12px 30px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.contact-form .btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
