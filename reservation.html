@@ -5,47 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rezervasyon - ERGİNEER RESTORAN</title>
 
+    <!-- Bootstrap & Font Awesome -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
     
+    <!-- Custom CSS -->
     <link rel="stylesheet" href="css/root.css">
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/navbar.css">
-    <link rel="stylesheet" href="css/sections.css">
+    <link rel="stylesheet" href="components/ReservationForm/ReservationForm.css">
     <link rel="stylesheet" href="css/footer.css">
 </head>
 <body>
-    <div class="header-area">
-        <div class="bg-gradient bg-secondary w-100">
-            <header>
-                <nav class="navbar navbar-expand-lg navbar-custom">
-                    <div class="container-fluid">
-                        <a class="navbar-brand" href="index.html">ERGİNEER RESTORAN</a>
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-                        <div class="collapse navbar-collapse" id="navbarNav">
-                            <ul class="navbar-nav">
-                                <li class="nav-item">
-                                    <a class="nav-link" href="index.html">Ana Sayfa</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="menu.html">Menü</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link active" href="reservation.html">Rezervasyon</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="contact.html">İletişim</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </nav>
-            </header>
-        </div>
-    </div>
+    <!-- Header Component -->
+    <div id="header-component"></div>
 
+    <!-- Main Content -->
     <div class="container py-5">
         <h1 class="text-center mb-5 text-white">Rezervasyon</h1>
         <div class="row justify-content-center">
@@ -102,42 +77,13 @@
         </div>
     </div>
 
-    <footer class="footer">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4">
-                    <h5>ERGİNEER RESTORAN</h5>
-                    <p>Lezzetin ve kalitenin buluşma noktası. 20 yıldır sizlere hizmet vermekten gurur duyuyoruz.</p>
-                </div>
-                <div class="col-md-4">
-                    <h5>Hızlı Linkler</h5>
-                    <ul class="footer-links">
-                        <li><a href="index.html">Ana Sayfa</a></li>
-                        <li><a href="menu.html">Menü</a></li>
-                        <li><a href="reservation.html">Rezervasyon</a></li>
-                        <li><a href="contact.html">İletişim</a></li>
-                    </ul>
-                </div>
-                <div class="col-md-4">
-                    <h5>Bizi Takip Edin</h5>
-                    <div class="social-icons">
-                        <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
-                        <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
-                        <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
-                        <a href="#" class="social-icon"><i class="fab fa-youtube"></i></a>
-                    </div>
-                </div>
-            </div>
-            <hr class="footer-divider">
-            <div class="row">
-                <div class="col-12 text-center">
-                    <p class="copyright">&copy; 2024 ERGİNEER RESTORAN. Tüm hakları saklıdır.</p>
-                </div>
-            </div>
-        </div>
-    </footer>
+    <!-- Footer Component -->
+    <div id="footer-component"></div>
 
+    <!-- Scripts -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="js/script.js"></script>
+    <script src="components/Header/Header.js"></script>
+    <script src="components/Footer/Footer.js"></script>
+    <script src="components/ReservationForm/ReservationForm.js"></script>
 </body>
 </html>
